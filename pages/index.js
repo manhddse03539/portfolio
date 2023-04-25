@@ -18,7 +18,7 @@ const ProfileImage = chakra(Image, {
 
 const Home = () => (
   <Layout>
-    <Container maxW="75ch" mt={5}>
+    <Container maxW="75ch" mt={5} paddingBottom={10}>
       <Box
         borderRadius="lg"
         mb={6}
@@ -27,7 +27,7 @@ const Home = () => (
         bg={useColorModeValue("#F8F8F8", "whiteAlpha.200")}
         css={{ backdropFilter: "blur(10px)" }}
       >
-        Hello, I&apos;m a master Chef in Viet Nam!
+        Hello, I&apos;m a developer in Viet Nam!
       </Box>
 
       <Box display={{ md: "flex" }}>
@@ -35,7 +35,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Manh Sama
           </Heading>
-          <p>( Chef / Developer / Artist )</p>
+          <p>( Developer / Brse )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -64,16 +64,19 @@ const Home = () => (
         </Box>
       </Box>
       <Box delay={0.1}>
-        <Heading as="h3" size="md" variant="section-title">
-          Work
+        <Heading as="h3" size="md" variant="section-title" marginBottom={5}>
+          Self-introduce
         </Heading>
         <Text>
-          I have 5 years’ experience as the head chef at ABC Eatery. Prior to
-          that I was a sous chef at Belle’s Bistro for 2 years, a position I
-          landed immediately after graduating from The Culinary Institute of
-          America. I specialize in elite and authentic American cuisine and
-          spend some of my off time experimenting with flavors to create new,
-          exciting and scrumptious dishes.
+          The IT industry is an industry that is constantly changing. I am
+          always ambitious, want to grow, and strive to achieve my goals even in
+          difficult situations. I have worked as a programmer for 3 years at the
+          development site. In fact, it can support development languages such
+          as Rails, HTML/CSS, and Reactjs. Not only the present, but also the
+          future goal is to become a good BRSE, so I would like to improve the
+          technology further. I have a little experience with external design
+          documents and internal design documents at the customer's site, so I
+          would like to improve my knowledge of system processes.
         </Text>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -92,15 +95,15 @@ const Home = () => (
           Born in Thai Binh, Viet Nam.
         </Box>
         <Box display="flex" gap="1rem" marginTop="1rem">
-          <Text fontWeight="bold">2017</Text>
+          <Text fontWeight="bold">2017/09</Text>
           Graduated from FPT University
         </Box>
         <Box display="flex" gap="1rem" marginTop="1rem">
-          <Text fontWeight="bold">2017-2019</Text>
+          <Text fontWeight="bold">2018/01 - 2019/06</Text>
           Worked at Hblab company
         </Box>
         <Box display="flex" gap="1rem" marginTop="1rem">
-          <Text fontWeight="bold">2019-2020</Text>
+          <Text fontWeight="bold">2019/07 - 2020/11</Text>
           Learned japanese language academy
         </Box>
         <Box display="flex" gap="1rem" marginTop="1rem">
