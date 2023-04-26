@@ -1,9 +1,9 @@
-import { Container } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
+import TabInfo from "../components/TabInfo/TabInfo";
 
 const Works = () => (
   <Layout title="Works">
-    <Container>Works</Container>
+    <TabInfo />
   </Layout>
 );
 

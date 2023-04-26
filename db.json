@@ -1,0 +1,49 @@
+{
+  "datas": [
+    {
+      "id": 1,
+      "tabTitle": "Bunbu",
+      "projects": [
+        {
+          "id": 1,
+          "imgSrc": "kindergarten.png",
+          "title": "Kindergarten",
+          "customer": "Japan company.",
+          "description": "This website is a kindergarten management system that allows families and schools to easily follow children's life, learning and health processes.",
+          "technology": "Reactjs, Ruby on rails.",
+          "duration": "2020/12 - 2022/08.",
+          "scope": "Normal, 12 members.",
+          "role": "Developer."
+        },
+        {
+          "id": 2,
+          "imgSrc": "kizukai.png",
+          "title": "Kizukai",
+          "customer": "Japan company.",
+          "description": "A data analysis website that supports CRM activities (business, lender and customer relationships) and LTV (pre-approval loan risk assessment).",
+          "technology": "Redux, TypeScript , Graphql, Storybook,  Ruby on rails.",
+          "duration": "2021/12 -2022/08",
+          "scope": "Large, 12 members.",
+          "role": "Developer."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tabTitle": "Hblab",
+      "projects": [
+        {
+          "id": 1,
+          "imgSrc": "learning.png",
+          "title": "T-Learning",
+          "customer": "VietNam Company.",
+          "description": "This website is a system for student programming courses to share programming skills through blogs.",
+          "technology": "Bootstrap, JavaScript/Jquery, PHP.",
+          "duration": "2018/01-2018/05.",
+          "scope": "Normal, 8 members.",
+          "role": "Developer."
+        }
+      ]
+    }
+  ]
+}
